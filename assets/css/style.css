@@ -1,0 +1,93 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  /* 消除圖片底部空白 */
+  vertical-align: middle;
+}
+
+a {
+  /* 文字下引線清除 */
+  text-decoration: none;
+  color: #000;
+}
+body {
+  font-family: "Castoro", serif;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 128px;
+  letter-spacing: 0.12em;
+}
+
+.photo {
+  text-align: center;
+}
+
+.action :active {
+  color: blue;
+}
+
+.desc {
+  background: #efefef;
+  padding: 48px 0;
+  font-size: 32px;
+}
+
+.item-title {
+  font-size: 40px;
+  color: #ae0000;
+  border-bottom: solid 3px #ae0000;
+}
+
+.footer {
+  background: #000;
+}
+
+.social-list {
+  padding: 64px 0;
+  text-align: center;
+}
+
+.social-list li {
+  display: inline-block;
+}
+
+.social-list li:hover {
+  transform: scale(1.2);
+}
+
+/* 通用樣式 */
+/* *將間距模組化(4倍數除4=px) */
+
+.w-50 {
+  width: 50%;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.mb-2 {
+  margin-bottom: 8px;
+}
+.mb-3 {
+  margin-bottom: 12px;
+}
+.mb-4 {
+  margin-bottom: 16px;
+}
+.mr-10 {
+  margin-right: 40px;
+}
